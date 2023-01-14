@@ -1,0 +1,30 @@
+---
+import projects from "../data/projects.json";
+---
+
+<h1 class="text-5xl font-bold text-center my-4">Projects</h1>
+
+<div class="grid md:grid-cols-3 gap-4">
+  {
+    projects.map((p) => {
+      return (
+        <div class="flex flex-row">
+          <div class="flex-1 m-auto">
+            <img src={p.image} class="w-40" alt=""/>
+          </div>
+
+          <div class="bg-slate-700  rounded-lg p-8 flex-1">
+            <h1 class="text-2xl font-bold my-4">{p.title}</h1>
+            <p>{p.description}</p>
+            <button class="bg-indigo-400 px-3 py-2 hover:bg-indigo-300 my-3">
+              More info
+            </button>
+          </div>
+
+          
+
+        </div>
+      );
+    })
+  }
+</div>

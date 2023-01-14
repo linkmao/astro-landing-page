@@ -1,0 +1,15 @@
+[{ "title":"feature 1",
+ "description":"esta es una de las primeras caracteristicas"
+},
+  { "title":"feature 2",
+  "description":"esta es una de las segundas caracteristicas"
+},  { "title":"feature 3",
+"description":"esta la tercera caracteristicas"
+}, { "title":"feature 1",
+"description":"esta es una de las primeras caracteristicas"
+},
+ { "title":"feature 2",
+ "description":"esta es una de las segundas caracteristicas"
+},  { "title":"feature 3",
+"description":"esta la tercera caracteristicas"
+}]
